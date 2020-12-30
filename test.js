@@ -219,3 +219,11 @@ function testEqual(val) {
     return "Not Equal";
 }
 testEqual(10);
+// Strict Equality operator (===) does not convert type so '3' is different than num 3
+function testStrict(val) {
+    if (val === 7) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+testStrict(10);
