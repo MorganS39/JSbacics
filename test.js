@@ -32,3 +32,6 @@ var sum = 10 + 10;
 
 // subtraction training
 var difference = 45 - 33;
+
+// multiplication training
+var product = 8 * 10;
