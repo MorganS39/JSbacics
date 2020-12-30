@@ -138,6 +138,10 @@ myArray[0] = 45;
 var arr = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 var data = arr[2][1];
 
-// Push function manipulation
+// Push function manipulation (add)
 var arr1 = [["John", 23], ["cat", 2]];
 arr1.push(["dog", 3]);
+
+// Pop function manipulation (subtract)
+var removedFromMyArray = arr1.pop();
+// this value should now be either 2 or 3 depending if the .push applied first.
