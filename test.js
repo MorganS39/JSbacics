@@ -137,3 +137,7 @@ myArray[0] = 45;
 // Multi-Dimensional Arrays with indexes
 var arr = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 var data = arr[2][1];
+
+// Push function manipulation
+var arr1 = [["John", 23], ["cat", 2]];
+arr1.push(["dog", 3]);
