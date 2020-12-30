@@ -149,3 +149,6 @@ var removedFromMyArray = arr1.pop();
 // this value should now be either 2 or 3 depending if the .push applied first.
 // pop removes the last function while .shift removes the first. example:
 var removedFromArr1 = arr1.shift();
+
+// Skills test of a basic shopping list
+var myList = [["chocolate", 2], ["eggs", 4], ["bacon", 2], ["milk", 4], ["bread", 1]];
