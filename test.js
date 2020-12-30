@@ -132,3 +132,4 @@ var wordBlanks = "Today was a beautiful " + myNoun + "." + " The sun was shining
 // Array training
 var myArray = ["muskrat", 5, "cheese"];
 var myData = myArray[0];
+myArray[0] = 45;
