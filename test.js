@@ -120,3 +120,11 @@ thirdLetterOfLastName = myLastName[2];
 // Strings are Immutable but can still be changed. example:
 var sampleStr = "Jello World";
 sampleStr = "Hello World";
+
+// wordBlanks (aka Madlibs) challenge
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+
+var wordBlanks = "Today was a beautiful " + myNoun + "." + " The sun was shining and my " + myAdjective + " wife had just " + myVerb + " " + myAdverb + ".";
