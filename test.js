@@ -227,3 +227,11 @@ function testStrict(val) {
     return "Not Equal";
 }
 testStrict(10);
+// Inequality operator (!=)
+function testNotEqual(val){
+    if (val != 99) {
+        return "Not Equal";
+    }
+    return "Equal";
+}
+testNotEqual(10);
