@@ -77,3 +77,6 @@ cc += 7;
 // String Training
 var myFirstName = "Potato";
 var myLastName = "Salad";
+
+// How to add quotes to a string using \ \ backslashes
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
