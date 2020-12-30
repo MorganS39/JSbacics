@@ -86,3 +86,6 @@ instead of using many \ to distinguish the quotation marks like:
 var testStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
 instead use single quotes effectively to make:*/
 var testStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+// can also use escape characters to remove the need for multiple lines
+var escapeStr = "firstLine\n\t\\SecondLine\nThirdLine";
