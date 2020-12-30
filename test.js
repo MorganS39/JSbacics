@@ -211,3 +211,11 @@ function trueOrFalse(wasThatTrue) {
     }
     return "No, that was false";
 }
+// Equality operator (==) and use with boolean expressions
+function testEqual(val) {
+    if (val == 12) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+testEqual(10);
