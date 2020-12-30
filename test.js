@@ -35,3 +35,6 @@ var difference = 45 - 33;
 
 // multiplication training
 var product = 8 * 10;
+
+// division training
+var quotient = 66 / 33;
