@@ -99,3 +99,8 @@ conStr += "This is the second sentence.";
 
 // constructing strings with variables
 var myIntro = "My name is " + myFirstName + " and I am well!";
+
+// using += operator with variables and strings
+var someAdjective = "moist";
+var learnStr = "Learning to code is ";
+learnStr += someAdjective;
