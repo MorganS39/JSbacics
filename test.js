@@ -203,3 +203,11 @@ function processArg(num) {
     return (num + 3) / 5;
 }
 processed = processArg(7);
+
+// Booleans, true and false
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+        return "Yes, that was true";
+    }
+    return "No, that was false";
+}
