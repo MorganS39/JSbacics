@@ -72,3 +72,4 @@ var cc = 12;
 aa += 12;
 bb += 9;
 cc += 7;
+// This concept applies to subtration (-=) multiplication (*=) and division (/=) as well
