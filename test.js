@@ -38,3 +38,11 @@ var product = 8 * 10;
 
 // division training
 var quotient = 66 / 33;
+
+// incrementation of numbers
+/* instead of
+var myVar = 87;
+myVar = myVar + 1;
+simplify to */
+var myVar = 87;
+myVar ++;
