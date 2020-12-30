@@ -133,3 +133,7 @@ var wordBlanks = "Today was a beautiful " + myNoun + "." + " The sun was shining
 var myArray = ["muskrat", 5, "cheese"];
 var myData = myArray[0];
 myArray[0] = 45;
+
+// Multi-Dimensional Arrays with indexes
+var arr = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var data = arr[2][1];
