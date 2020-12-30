@@ -109,9 +109,12 @@ learnStr += someAdjective;
 var lastNameLength = 0;
 lastNameLength = myLastName.length;
 
-// Bracket notation. This gives the first letter of my last name.
+// Bracket notation. This gives the first letter of my last name. also 3rd and last letter
 var firstLetterOfLastName = "";
+var thirdLetterOfLastName = "";
+var lastLetterOfLastName = myLastName[myLastName.length - 1];
 firstLetterOfLastName = myLastName[0];
+thirdLetterOfLastName = myLastName[2];
 
 // Strings are Immutable but can still be changed. example:
 var sampleStr = "Jello World";
