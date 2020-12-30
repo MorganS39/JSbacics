@@ -158,3 +158,9 @@ function reusableFunction() {
     console.log("Hi World");
 }
 reusableFunction();
+
+// Passing values to functions using arguments
+function functionWithArgs(arg1, arg2) {
+    console.log(arg1 + arg2);
+}
+functionWithArgs(1, 2);
