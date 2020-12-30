@@ -104,3 +104,7 @@ var myIntro = "My name is " + myFirstName + " and I am well!";
 var someAdjective = "moist";
 var learnStr = "Learning to code is ";
 learnStr += someAdjective;
+
+// find the length of strings using simple commands
+var lastNameLength = 0;
+lastNameLength = myLastName.length;
