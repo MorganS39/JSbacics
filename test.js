@@ -89,3 +89,6 @@ var testStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 // can also use escape characters to remove the need for multiple lines
 var escapeStr = "firstLine\n\t\\SecondLine\nThirdLine";
+
+// String concatenation
+var concatStr = "This is the start. " + "This is the end.";
