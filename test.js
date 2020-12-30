@@ -80,3 +80,9 @@ var myLastName = "Salad";
 
 // How to add quotes to a string using \ \ backslashes
 var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+/* Applying multiple quotations in a string
+instead of using many \ to distinguish the quotation marks like:
+var testStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+instead use single quotes effectively to make:*/
+var testStr = '<a href="http://www.example.com" target="_blank">Link</a>';
