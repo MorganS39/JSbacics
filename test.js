@@ -60,3 +60,15 @@ var myDecimal = 8.6;
 
 // remainder
 var remainder = 11 % 3;
+
+/* Augmented additon to simplify the script
+everything is simplified by using += instead of:
+var aa = 3;
+aa = aa + 12; */
+var aa = 3;
+var bb = 17;
+var cc = 12;
+
+aa += 12;
+bb += 9;
+cc += 7;
