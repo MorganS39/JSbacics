@@ -92,3 +92,7 @@ var escapeStr = "firstLine\n\t\\SecondLine\nThirdLine";
 
 // String concatenation
 var concatStr = "This is the start. " + "This is the end.";
+
+// Can also be used with the += operator
+var conStr = "This is the first sentence. ";
+conStr += "This is the second sentence.";
