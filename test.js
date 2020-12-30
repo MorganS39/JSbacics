@@ -182,3 +182,11 @@ function fun2() {
     }
     console.log(output);
 }
+
+// Local scope and functions
+function myLocalScope() {
+    var localScope = "";
+    console.log('inside myLocalScope', localScope);
+}
+myLocalScope();
+console.log('outside myLocalScope', localScope);
