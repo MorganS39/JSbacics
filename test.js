@@ -190,3 +190,9 @@ function myLocalScope() {
 }
 myLocalScope();
 console.log('outside myLocalScope', localScope);
+
+// Learning Return functions
+function timesFive(num) {
+    return num * 5;
+}
+timesFive(5);
