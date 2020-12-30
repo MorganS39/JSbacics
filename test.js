@@ -29,3 +29,6 @@ titleCaseOver = 9000;
 
 // addition training
 var sum = 10 + 10;
+
+// subtraction training
+var difference = 45 - 33;
