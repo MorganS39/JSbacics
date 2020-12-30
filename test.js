@@ -39,6 +39,7 @@ var decProduct = 2.0 * 2.5;
 
 // division training
 var quotient = 66 / 33;
+var decQuotient = 4.4 / 2.0;
 
 // incrementation of numbers
 /* instead of
