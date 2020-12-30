@@ -44,5 +44,10 @@ var quotient = 66 / 33;
 var myVar = 87;
 myVar = myVar + 1;
 simplify to */
-var myVar = 87;
-myVar ++;
+var addVar = 87;
+addVar ++;
+
+// decrementation of numbers
+// same concept except with subtration instead of addition
+var subVar = 11;
+subVar --;
