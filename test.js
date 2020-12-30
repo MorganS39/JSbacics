@@ -57,3 +57,6 @@ subVar --;
 // floating points or decimals with JS
 var ourDecimal = 5.7;
 var myDecimal = 8.6;
+
+// remainder
+var remainder = 11 % 3;
