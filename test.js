@@ -108,3 +108,7 @@ learnStr += someAdjective;
 // find the length of strings using simple commands
 var lastNameLength = 0;
 lastNameLength = myLastName.length;
+
+// Bracket notation. This gives the first letter of my last name.
+var firstLetterOfLastName = "";
+firstLetterOfLastName = myLastName[0];
