@@ -96,3 +96,6 @@ var concatStr = "This is the start. " + "This is the end.";
 // Can also be used with the += operator
 var conStr = "This is the first sentence. ";
 conStr += "This is the second sentence.";
+
+// constructing strings with variables
+var myIntro = "My name is " + myFirstName + " and I am well!";
