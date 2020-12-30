@@ -112,3 +112,7 @@ lastNameLength = myLastName.length;
 // Bracket notation. This gives the first letter of my last name.
 var firstLetterOfLastName = "";
 firstLetterOfLastName = myLastName[0];
+
+// Strings are Immutable but can still be changed. example:
+var sampleStr = "Jello World";
+sampleStr = "Hello World";
