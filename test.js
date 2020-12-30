@@ -128,3 +128,7 @@ var myVerb = "ran";
 var myAdverb = "quickly";
 
 var wordBlanks = "Today was a beautiful " + myNoun + "." + " The sun was shining and my " + myAdjective + " wife had just " + myVerb + " " + myAdverb + ".";
+
+// Array training
+var myArray = ["muskrat", 5, "cheese"];
+var myData = myArray[0];
