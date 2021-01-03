@@ -307,3 +307,12 @@ function testLogicalAnd(val) {
     return "No";
 }
 testLogicalAnd(10);
+
+// Logical OR operator (||)
+function testLogicalOr(val) {
+    if (val > 20 || val < 10) {
+      return "Outside";
+    }
+    return "Inside";
+}
+testLogicalOr(15);
