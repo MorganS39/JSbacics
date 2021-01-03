@@ -245,7 +245,7 @@ function testStrictNotEqual(val) {
 }
 testStrictNotEqual(10);
 
-// Greater than operator >
+// Greater than operator (>)
 function testGreaterThan(val) {
     if (val > 100) {  // Change this line
       return "Over 100";
@@ -256,3 +256,17 @@ function testGreaterThan(val) {
     return "10 or Under";
 }
 testGreaterThan(10);
+
+// Greater than equal to operator (>=)
+function testGreaterOrEqual(val) {
+    if (val >= 20) {  // Change this line
+      return "20 or Over";
+    }
+  
+    if (val >= 10) {  // Change this line
+      return "10 or Over";
+    }
+  
+    return "Less than 10";
+}
+testGreaterOrEqual(10);
