@@ -507,3 +507,20 @@ function cc(card) {
   }
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// Javascript Objects intro
+var myDog = {
+  "name": "Fluffers",
+  "legs": 4,
+  "tails": 2,
+  "friends": ["Me", "Myself", "Irene"]
+};
+
+// Objects continued
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+var hatValue = testObj.hat;
+var shirtValue = testObj.shirt;
