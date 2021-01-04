@@ -585,3 +585,12 @@ function phoneticLookup(val) {
   return result;
 }
 phoneticLookup("charlie");
+
+// Testing objects for properties (I still dont really understand this)
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
