@@ -560,3 +560,12 @@ var myDog = {
   "friends": ["Me", "Myself", "Irene"]
 };
 myDog.bark = "woof";
+
+// Deleting properties from an object
+var myDog = {
+  "name": "Fluffers",
+  "legs": 4,
+  "tails": 2,
+  "friends": ["Me", "Myself", "Irene"]
+};
+delete myDog.tails;
