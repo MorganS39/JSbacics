@@ -569,3 +569,19 @@ var myDog = {
   "friends": ["Me", "Myself", "Irene"]
 };
 delete myDog.tails;
+
+// Using objects for lookups
+function phoneticLookup(val) {
+  var result = "";
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  result = lookup[val];
+  return result;
+}
+phoneticLookup("charlie");
