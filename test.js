@@ -542,3 +542,12 @@ var testObj = {
 };
 var playerNumber = 16;
 var player = testObj[playerNumber];
+
+// Updating Object Properties
+var myDog = {
+  "name": "Fluffers",
+  "legs": 4,
+  "tails": 2,
+  "friends": ["Me", "Myself", "Irene"]
+};
+myDog.name = "Sir Borks";
