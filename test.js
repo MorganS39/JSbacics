@@ -551,3 +551,12 @@ var myDog = {
   "friends": ["Me", "Myself", "Irene"]
 };
 myDog.name = "Sir Borks";
+
+// Adding object properties (similar to updating)
+var myDog = {
+  "name": "Fluffers",
+  "legs": 4,
+  "tails": 2,
+  "friends": ["Me", "Myself", "Irene"]
+};
+myDog.bark = "woof";
