@@ -689,3 +689,11 @@ function updateRecords(object, id, prop, value) {
   return object;
 }
 updateRecords(collection, 5439, 'artist', 'ABBA');
+
+// Iterating While Loops in JS
+var ourArray = [];
+var i = 5;
+while (i >= 0) {
+  ourArray.push(i);
+  i--;
+}
