@@ -800,3 +800,10 @@ function randomWholeNum() {
 function randomRange(myMin, myMax) {
   return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
 }
+
+// converting string to an integer
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+convertToInteger("56");
