@@ -733,7 +733,6 @@ function multiplyAll(arr) {
   }
   return product;
 }
-multiplyAll([1, 2],[3, 4],[5,6,7]]);
 
 // Iterating Do/ While Loops in JS
 var myArray = [];
@@ -742,3 +741,12 @@ do {
   myArray.push(i);
   i++;
 } while (i < 5);
+
+// Replacing loops using recursion
+function sum(arr, n) {
+  if (n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
+}
