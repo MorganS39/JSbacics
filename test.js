@@ -709,3 +709,9 @@ var myArray = [];
 for (var i = 1; i < 11; i += 2) {
   myArray.push(i);
 }
+
+// Counting backwards with a For loop
+var myArray = [];
+for (var i = 9; i > 0; i -= 2) {
+  myArray.push(i);
+}
