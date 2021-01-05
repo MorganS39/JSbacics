@@ -807,3 +807,15 @@ function convertToInteger(str) {
 }
 
 convertToInteger("56");
+
+// ParseInt with radix 
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+convertToInteger("10011");
+
+// Conditional (Ternary) Operator
+function checkEqual(a, b) {
+  return a == b ? "Equal" : "Not Equal";
+}
+checkEqual(1, 2);
