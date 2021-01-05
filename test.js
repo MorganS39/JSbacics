@@ -698,8 +698,14 @@ while (i >= 0) {
   i--;
 }
 
-// Iterate For Loops in JS
+// Iterate For Loops in JS (1-5)
 var ourArray = [];
 for (var i = 1; i < 6; i++) {
   ourArray.push(i);
+}
+
+// Odd for loops (1-9)
+var myArray = [];
+for (var i = 1; i < 11; i += 2) {
+  myArray.push(i);
 }
