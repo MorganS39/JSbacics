@@ -734,3 +734,11 @@ function multiplyAll(arr) {
   return product;
 }
 multiplyAll([1, 2],[3, 4],[5,6,7]]);
+
+// Iterating Do/ While Loops in JS
+var myArray = [];
+var i = 10;
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5);
