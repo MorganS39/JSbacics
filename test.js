@@ -697,3 +697,9 @@ while (i >= 0) {
   ourArray.push(i);
   i--;
 }
+
+// Iterate For Loops in JS
+var ourArray = [];
+for (var i = 1; i < 6; i++) {
+  ourArray.push(i);
+}
