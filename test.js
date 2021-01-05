@@ -827,3 +827,25 @@ function checkSign(num) {
   : "zero"
 }
 checkSign(10);
+
+// Recursion to create a countdown
+function countdown(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = countdown(n - 1);
+    countArray.unshift(n);
+    return countArray
+  }
+}
+
+// Recursion to create a range of numbers
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+  return [startNum];
+  } else {
+    const countArray = rangeOfNumbers(startNum, endNum - 1);
+    countArray.push(endNum);
+    return countArray;
+  }
+};
