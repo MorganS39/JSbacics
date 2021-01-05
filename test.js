@@ -790,3 +790,13 @@ function lookUpProfile(name, prop) {
 }
 
 lookUpProfile("Akira", "likes");
+
+// Random number generation
+function randomWholeNum() {
+  return Math.floor(Math.random() * 10);
+}
+
+// Random number generation in a range of whole numbers
+function randomRange(myMin, myMax) {
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
